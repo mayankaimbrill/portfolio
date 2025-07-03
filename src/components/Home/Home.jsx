@@ -29,13 +29,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={4} style={{ paddingBottom: 20, display: "flex", justifyContent: "center", alignItems: "center" }}>
-              <img
-                src={myImg}
-                alt="home pic"
-                className="img-fluid"
-              />
-            </Col>
+         
           </Row>
         </Container>
       </Container>
