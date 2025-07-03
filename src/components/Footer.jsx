@@ -20,17 +20,17 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Mayank-Bharkhada"
+                href="https://www.instagram.com/brij_1609/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <AiFillInstagram />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/mayank-bharkhada-61b1a5257"
+                href="https://www.linkedin.com/in/brijesh-sangani-762967279"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

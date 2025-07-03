@@ -1,47 +1,32 @@
 import React from "react";
 import { Col, OverlayTrigger, Row, Tooltip } from "react-bootstrap";
+
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiGit,
-  DiPostgresql,
-  DiDocker,
-  DiAws,
-} from "react-icons/di";
-import {
-  SiFirebase,
-  SiTypescript,
-  SiNextdotjs,
-  SiNestjs,
-  SiExpress,
-  SiRedis,
-  SiMysql,
+  SiFigma,
+  SiAdobexd,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiBehance,
+  SiLinkedin,
+  SiSlack,
+  SiMicrosoftteams,
 } from "react-icons/si";
 
-const techIcons = [
-  { icon: <DiJavascript1 />, name: "JavaScript" },
-  { icon: <SiTypescript />, name: "TypeScript" },
-  { icon: <DiReact />, name: "React" },
-  { icon: <SiNextdotjs />, name: "Next.js" },
-  { icon: <DiNodejs />, name: "Node.js" },
-  { icon: <SiExpress />, name: "Express" },
-  { icon: <SiNestjs />, name: "NestJS" },
-  { icon: <DiMongodb />, name: "MongoDB" },
-  { icon: <SiRedis />, name: "Redis" },
-  { icon: <SiMysql />, name: "MySQL" },
-  { icon: <DiPostgresql />, name: "PostgreSQL" },
-  { icon: <DiDocker />, name: "Docker" },
-  { icon: <SiFirebase />, name: "Firebase" },
-  { icon: <DiAws />, name: "AWS" },
-  { icon: <DiGit />, name: "Git" },
+const tools = [
+  { icon: <SiFigma />, name: "Figma" },
+  { icon: <SiAdobexd />, name: "Adobe XD" },
+  { icon: <SiAdobephotoshop />, name: "Photoshop" },
+  { icon: <SiAdobeillustrator />, name: "Illustrator" },
+  { icon: <SiBehance />, name: "Behance" },
+  { icon: <SiLinkedin />, name: "LinkedIn" },
+  { icon: <SiSlack />, name: "Slack" }, // Team comms
+  { icon: <SiMicrosoftteams />, name: "Microsoft Teams" }, // Meetings + collab
 ];
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {techIcons.map(({ icon, name }, idx) => (
+      {tools.map(({ icon, name }, idx) => (
         <Col xs={4} md={2} className="tech-icons" key={name}>
           <OverlayTrigger
             placement="top"

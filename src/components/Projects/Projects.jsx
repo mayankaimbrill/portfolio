@@ -3,13 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import destinova from "../../Assets/Projects/destinova.png";
-import hseuav from "../../Assets/Projects/hseuav.png";
-import whereness from "../../Assets/Projects/whereness.png";
-import coolriots from "../../Assets/Projects/coolriots.png";
-import voiceping from "../../Assets/Projects/voiceping.png";
-import myeasydrop from "../../Assets/Projects/myeasydrop.png";
-import driftsense from "../../Assets/Projects/driftsense.png";
-import minta from "../../Assets/Projects/minta.png";
+
+import weupsell from "../../Assets/Projects/weupsell.png";
+import capsole from "../../Assets/Projects/capsole.png";
+import foodpos from "../../Assets/Projects/foodpos.png";
 
 function Projects() {
   return (
@@ -25,79 +22,42 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={whereness}
-              title="Whereness"
-              description="Whereness is a platform for creating and sharing immersive 360° and 2D virtual environments, used in architecture, education, culture, and virtual exhibitions."
-              demoLink="https://hello.whereness.io/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={coolriots}
-              title="CoolRiot AI"
-              description="CoolRiot AI is a platform for building AI-powered websites and 3D communication apps with multi-channel support (voice, WhatsApp, Facebook). I built fast, dynamic sites using Next.js and Opcode, optimizing performance and smart customer engagement."
-              demoLink="https://coolriots.ai/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={voiceping}
-              isBlog={false}
-              title="Voice-ping"
-              description="Voice-ping breaks language barriers in real-time meetings by instantly translating 45 languages, including tech terms. It offers all-in-one tools like a text editor and whiteboard, integrates with Zoom and Teams, and lets you share a QR code for multi-language events—no app needed. Unite global teams easily with unlimited meetings, file sharing, and productivity features."
-              demoLink="https://voice-ping.com/en"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={destinova}
-              isBlog={false}
-              title="Destinovaailabs"
-              description="Developed an AI chatbot that enhances customer engagement with real-time, personalized conversations using natural language understanding and integrates with CRM systems to improve support accuracy and reduce ticket volume."
-              demoLink=" https://aibot.destinovaailabs.com/"
+              title="Destinova AI ChatBot"
+              description="Shopify App – AI-powered customer support & sales assistant Designed the complete user interface for an AI chatbot app built for Shopify merchants. The chatbot helps automate product recommendations, order tracking, and 24/7 customer support. Focused on creating a seamless onboarding flow, an intuitive live chat panel, and scalable UI for varied merchant needs."
+              demoLink="https://destinovaailabs.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={myeasydrop}
-              isBlog={false}
-              title="Myeasydrop"
-              description="Porter-style luggage delivery app (mobile & web) with real-time tracking, booking, delivery updates, and smooth, intuitive UI backed by efficient backend integration."
-              demoLink="https://www.myeasydrop.ca/" 
+              imgPath={weupsell}
+              title="WeUpsell – AI-Generated Popups"
+              description="Website widget – Smart upselling and revenue growth tool Led the full UI/UX design of an AI-based popup builder that helps e-commerce websites increase sales through automated, behavior-driven popups. Designed the flow for popup creation, targeting rules, analytics dashboard, and template customization. Balanced usability with visual appeal to support conversion-focused merchants."
+              demoLink="https://weupsell.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={hseuav}
+              imgPath={capsole}
               isBlog={false}
-              title="HSE-UAV Shopify Store"
-              description="Developed a fully customized Shopify e-commerce store for HSE-UAV, focused on precision agriculture drone solutions. The project involved creating responsive, high-performance storefronts and customizing Shopify Liquid templates to meet unique business requirements."
-              demoLink="https://hse-uav.myshopify.com/"  
+              title="Capsole Store"
+              description="E-commerce website – Product-focused, modern shopping experience Designed the complete UI for an online store offering a curated selection of lifestyle and tech products. Focused on clean layout, product discoverability, and responsive design for smooth shopping on both desktop and mobile."
+              demoLink="https://capsolestore.com/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={driftsense}
+              imgPath={foodpos}
               isBlog={false}
-              title="DriftSense"
-              description="Drift Sense is a platform for real-time environmental monitoring, analyzing data with advanced sensors for agriculture, forestry, and urban planning. Features include real-time visualization, automated alerts, and predictive analytics."
-              demoLink="https://drift-sense.com/"  
+              title="Food POS"
+              description="Designed the full UI/UX for a point-of-sale system tailored for restaurants and cafes. The system supports order management, table tracking, billing, and kitchen operations. Focused on creating a responsive interface that simplifies staff workflows across desktop and mobile. Designed intuitive navigation, clear data displays, and consistent UI patterns to improve efficiency for both front-of-house and back-office teams."
+              demoLink="https://play.google.com/store/apps/details?id=com.microtech.microtechcaptain.posCloud&hl=en_IN" 
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={minta}
-              isBlog={false}
-              title="Minta"
-              description="Minta is an AI-powered platform that automates video marketing and social media content creation. It integrates with Shopify, Facebook, Instagram, TikTok, and Pinterest, offering real-time analytics, AI-generated captions, and editing tools like filters, stickers, and text overlays to boost engagement and efficiency."
-              demoLink="https://www.minta.ai/"  
-            />
-          </Col>
+
         </Row>
       </Container>
     </Container>

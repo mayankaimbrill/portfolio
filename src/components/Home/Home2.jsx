@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -14,62 +13,26 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <p className="home-about-body">
-              I'm a <b className="purple">Full-Stack Developer</b> with solid experience in web and mobile app development using{" "}
-              <b className="purple">JavaScript, TypeScript, Node.js, React.js, and PHP</b>.
+              I'm a <b className="purple">UI/UX Designer</b> with <b className="purple">1.5 years of experience</b> crafting intuitive and visually engaging digital products.
               <br />
               <br />
-              I have expertise in{" "}
-              <b className="purple">
-                React Native, Express.js, Nest.js, Next.js, and the MERN stack
-              </b>
-              , building robust applications and REST APIs.
+              I specialize in designing clean, functional interfaces for both web and mobile applications using tools like <b className="purple">Figma, Adobe XD, and Illustrator</b>.
               <br />
               <br />
-              Skilled in leveraging cloud platforms like{" "}
-              <b className="purple">AWS</b> and <b className="purple">Firebase</b>, and proficient with both{" "}
-              <b className="purple">SQL</b> and <b className="purple">NoSQL</b> databases.
+              I’ve worked across <b className="purple">e-commerce, SaaS, and AI-powered platforms</b> — focusing on user research, wireframing, prototyping, and building responsive, developer-ready UIs.
               <br />
               <br />
-              Known for strong problem-solving abilities and delivering maintainable, scalable code.
+              Skilled in solving design problems with a <b className="purple">user-first approach</b>, I aim to balance usability with aesthetics, ensuring every product not only looks great but also works seamlessly.
+              <br />
+              <br />
+              Known for my <b className="purple">eye for detail</b>, structured thinking, and ability to collaborate effectively with developers and stakeholders.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+
         </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/Mayank-Bharkhada"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/mayank-bharkhada-61b1a5257"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+   
       </Container>
     </Container>
   );

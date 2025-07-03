@@ -8,23 +8,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I'm <span className="purple">Mayank Bharkhada</span> from{" "}
-            <span className="purple">Gujarat, India</span>.<br /><br />
-            <strong>🏡</strong> Giriraj Nagar - 2, Keshod, Junagadh, Gujarat – 362220<br />
+            Hi, I’m <span className="purple">Brijesh Sangani</span> from{" "}
+            <span className="purple">Gujarat, India</span>.
+            <br />
+            <br />
+            <strong>🏡</strong> Nagadiya, Junagadh, Gujarat – 362215
+            <br />
             <strong>📍</strong> Bapunagar, Ahmedabad, Gujarat – 382350
-            <br /><br />
-            I’m a dedicated <strong className="purple">Full-Stack Developer</strong> with experience building scalable applications using{" "}
-            <strong className="purple">TypeScript, React.js, Node.js, React Native, Next.js, ExpressJS, NestJS</strong> and cloud platforms.
-            <br /><br />
-            Outside of development, I love to:
+            <br />
+            <br />
+            <span className="purple">🎨</span> I’m a passionate{" "}
+            <strong className="purple">UI/UX Designer</strong> with{" "}
+            <strong className="purple">1.5 years of experience</strong> creating
+            user-friendly, visually appealing digital products. I specialize in
+            designing for web and mobile platforms — focusing on clean layouts,
+            intuitive flows, and consistent user experiences that align with
+            product goals.
+            <br />
+            <br />
+            I enjoy working across the full design process — from wireframes and
+            prototypes to final UI handoff — while collaborating with developers
+            and stakeholders to bring ideas to life.
+            <br />
+            <br />
+            💬 Outside of work, I enjoy:
           </p>
           <ul>
             {[
-              "Read books and tech articles",
-              "Explore AI tools and emerging technologies",
-              "Join hackathons and developer events",
-              "Share knowledge through tech blogs",
-              "Delve into Mathematics and Physics",
+              "Observing great product design across apps and websites",
+              "Exploring new AI tools and design trends",
+              "Sharing learnings with design peers",
+              "Learning about typography, colors, and layouts",
+              "Staying inspired through music and creative art",
             ].map((activity, idx) => (
               <li className="about-activity" key={idx}>
                 <ImPointRight /> {activity}
@@ -32,9 +47,9 @@ function AboutCard() {
             ))}
           </ul>
           <p style={{ color: "rgb(155 126 172)", marginTop: 15 }}>
-            "Programming is less about what you already know and more about your ability to solve problems and create solutions."
+            “Good design is not just how it looks — it’s how it works and how it feels.”
           </p>
-          <footer className="blockquote-footer">Mayank Bharkhada</footer>
+          <footer className="blockquote-footer">Brijesh Sangani</footer>
         </blockquote>
       </Card.Body>
     </Card>
