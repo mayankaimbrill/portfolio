@@ -10,7 +10,13 @@ import {
   SiLinkedin,
   SiSlack,
   SiMicrosoftteams,
+  SiFramer,
+  SiSketch,
 } from "react-icons/si";
+
+import {
+  DiPhotoshop,
+} from "react-icons/di";
 
 const tools = [
   { icon: <SiFigma />, name: "Figma" },
@@ -21,6 +27,9 @@ const tools = [
   { icon: <SiLinkedin />, name: "LinkedIn" },
   { icon: <SiSlack />, name: "Slack" }, // Team comms
   { icon: <SiMicrosoftteams />, name: "Microsoft Teams" }, // Meetings + collab
+  { icon: <DiPhotoshop />, name: "Photoshop" }, // Image editing
+  { icon: <SiFramer />, name: "Framer" }, // Prototyping
+  { icon: <SiSketch />, name: "Sketch" }, // Design tool
 ];
 
 function Techstack() {

@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import aboutLogo from "../../Assets/Projects/ui_ux.png";
+import aboutLogo from "../../Assets/Projects/ui_ux.webp";
 
 function About() {
   return (

@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 function Home() {
   return (
     <section>
@@ -27,6 +27,13 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+            </Col>
+              <Col md={4} style={{ paddingBottom: 20, display: "flex", justifyContent: "center", alignItems: "center" }}>
+              <img
+                src={myImg}
+                alt="home pic"
+                className="img-fluid"
+              />
             </Col>
 
          
